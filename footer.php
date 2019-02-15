@@ -37,6 +37,7 @@
 				<li><img src="<?php echo(get_template_directory_uri()); ?>/images/white-logo.png" alt="logo"></li>
 				<li>&copy; All Rights Reserved 2019</li>
 			</ul>
+			<?php dynamic_sidebar( 'footer' ); ?>
 		</div><!-- .wrapper -->
 	</footer><!-- #colophon -->
 </div><!-- #page -->
